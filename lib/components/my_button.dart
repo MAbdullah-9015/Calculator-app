@@ -15,11 +15,11 @@ class MyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Expanded(
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 8),
+        padding: const EdgeInsets.symmetric(vertical: 10),
         child: InkWell(
           onTap: onPress,
           child: Container(
-            height: 70,
+            height: 80,
             decoration: BoxDecoration(shape: BoxShape.circle, color: color),
             child: Center(
               child: Text(
